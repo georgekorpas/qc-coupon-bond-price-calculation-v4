@@ -33,7 +33,7 @@ $$
 where:
 
 $$
-B(T) = \frac{1 - e^{-\kappa T}}{\kappa}
+B(T) = \frac{1 - e^{-\kappa T}}{\kappa}.
 $$
 
 and
