@@ -36,6 +36,8 @@ $$
 B(T) = \frac{1 - e^{-\kappa T}}{\kappa}
 $$
 
+and
+
 $$
 A(T) = \exp \left( \left( \theta - \frac{\sigma^2}{2\kappa^2} \right) (B(T) - T) - \frac{\sigma^2}{4\kappa} B(T)^2 \right)
 $$
