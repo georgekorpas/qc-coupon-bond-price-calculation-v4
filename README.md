@@ -13,9 +13,9 @@ This approach is known to significantly improve accuracy while reducing computat
 
 The Vasicek model describes the evolution of interest rates using the stochastic differential equation (SDE):
 
-\[
+$$
 dr_t = \kappa (\theta - r_t) dt + \sigma dW_t
-\]
+$$
 
 where:
 - \( r_t \) = short-term interest rate at time \( t \),
