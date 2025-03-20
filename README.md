@@ -18,27 +18,27 @@ dr_t = \kappa (\theta - r_t) dt + \sigma dW_t
 $$
 
 where:
-- \( r_t \) = short-term interest rate at time \( t \),
-- \( \kappa \) = speed of mean reversion,
-- \( \theta \) = long-term mean interest rate,
-- \( \sigma \) = volatility of interest rate,
-- \( dW_t \) = Wiener process (Brownian motion).
+- $r_t$ = short-term interest rate at time $t$,
+- $\kappa$ = speed of mean reversion,
+- $\theta$ = long-term mean interest rate,
+- $\sigma$ = volatility of interest rate,
+- $dW_t$ = Wiener process (Brownian motion).
 
 The zero-coupon bond price under the Vasicek model has a closed-form solution:
 
-\[
+$$
 P(0,T) = A(T) e^{-B(T) r_0}
-\]
+$$
 
 where:
 
-\[
+$$
 B(T) = \frac{1 - e^{-\kappa T}}{\kappa}
-\]
+$$
 
-\[
+$$
 A(T) = \exp \left( \left( \theta - \frac{\sigma^2}{2\kappa^2} \right) (B(T) - T) - \frac{\sigma^2}{4\kappa} B(T)^2 \right)
-\]
+$$
 
 This analytical solution is used as a control variate to improve Monte Carlo estimates.
 
